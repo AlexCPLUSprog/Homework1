@@ -7,11 +7,11 @@ namespace Hello_Word
 {
     class FileIO
     {
-       static readonly int x;
+        static private int x = 10;
     }
-    class MyFile : FileIO
+    class myFile : FileIO
     {
-        public MyFile()
+        public myFile()
         {
             Console.WriteLine(FileIO.x);
         }
